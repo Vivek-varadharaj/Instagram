@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+
+.mainContainer{
+width: 100%;
+overflow-x: hidden;
+overflow-y: scroll;
+
+
+
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navBar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: rgb(255, 255, 255);   
+    border-bottom: 0.5px solid rgba(var(--f52,142,142,142),1);
+    position: fixed;
+    z-index: 2000;
+    align-items: center;
+   
+}
+
+.logo{
+    width: 30%;
+    height: 60px;
+}
+#logo{
+    height: 30px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.searchBox{
+    width: 35%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.searchColumn{
+    
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    text-align: center;
+   border: none;
+    color:rgba(var(--f52,142,142,142),1);
+    font-family: monospace;
+    outline: none;
+}
+.home{
+display: flex;
+align-items: center;
+}
+
+.home i{
+    font-size: 25px;
+    
+    cursor: pointer;
+}
+#Home{
+    font-size: 35px;
+}
+.home span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.NavSecondPart{
+    
+    height: 27px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 150px;
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#PlaceHolder{
+    display: flex;
+     border: none; 
+    outline: none;
+    text-align: center;
+    width: 50px;
+}
+
+
+.subMain{
+  width: 48%;
+  height: 1000px;
+  background-color: rgba(var(--b3f,250,250,250),1);
+  margin-left: 14%;
+  margin-top: 40px;
+  
+  
+
+}
+.stories{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border: 1px solid rgba(var(--f52,142,142,142),1); 
+    border-radius: 4px;
+    align-items: center;   
+    margin-top: 60px;    
+}
+
+
+
+.storiesTab{
+
+    width: 200px;
+    height: 100px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    
+}
+
+
+    .rightSideBar {
+        width: 38%;
+        height: 300px;
+        /* background-color: rgba(var(--b3f,250,250,250),1); */
+        background-color: rgb(255, 255, 255);
+        margin-left: 787px;
+        position: fixed;
+        margin-top: 73px;
+   
+
+
+}
+
+.overall{
+    display: flex;
+    
+}
+.storiesimage{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: solid 2px #5f0c0c;
+    outline: 2px solid white;
+}
+.text{
+    margin-top: 5px;
+}
+.stories::-webkit-scrollbar{
+    display: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.mainContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.newsFeed{
+    width: 99%;
+    margin-top: 30px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    height: 793px;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+.newsFeed1{
+    width: 99%;
+    margin-top: 30px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    height: 893px;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+.name{
+
+    height: 60px;
+    width: 100%;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    display: flex;
+}
+
+.profilePic{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileName{
+    width: 600px;
+    height: 60px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.photo{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.DP{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.NewsFeedImage{
+    height: 400px;
+    width: 606px;
+}
+
+.NewsFeedImage1{
+    height: 500px;
+    width: 606px;
+    
+}
+
+.icons{
+
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.icons1{
+
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 100px;
+}
+
+
+
+#LoveIcon{
+    font-size: 33px;
+    color:rgba(0, 0, 0, 0.705);
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#CommentIcon{
+    font-size: 29px;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.705);
+    cursor: pointer;
+}
+
+#SaveIcon{
+    font-size: 29px;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.705);
+    margin-left: 410px;
+    cursor: pointer;
+}
+
+#SaveIcon:hover{
+    transform: scale(1.2);
+}
+
+#CommentIcon:hover{
+    transform: scale(1.2);
+}
+#LoveIcon:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+.LikedPersonDp{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Like{
+    display: flex;
+    padding-left: 20px;
+}
+
+.Likedname{
+    margin-left: 7px;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+}
+
+.LikedPersonName{
+    margin-left: 7px;
+    margin-top: 8px;
+    color: black;
+    cursor: pointer;
+}
+.UserName{
+    margin-left: 30px;
+    margin-top: 8px;
+    color: black;
+    cursor: pointer;
+}
+
+.all{
+    display: flex;
+}
+.CommentBox{
+    height: 60px;
+
+    background-color: rgb(255, 255, 255);
+    margin-top: 8px;
+}
+
+.MainCommentBox{
+    display: flex;
+    align-items: center;
+    
+}
+.CommentBox{
+    border: none;
+    height: 59px;
+    padding-left: 20px;
+
+}
+
+.UserDetails{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.User{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.BlueText{
+    margin-left: 120px;
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.Suggestions{
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.596) ;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.SeeAll{
+    margin-top: 23px;
+    margin-left: 192px;
+    color: black;
+    font-weight: 300;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+
+.About{
+     color:rgba(0, 0, 0, 0.596);
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+
