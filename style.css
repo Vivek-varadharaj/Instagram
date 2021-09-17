@@ -14,12 +14,16 @@ width: 100%;
 overflow-x: hidden;
 overflow-y: scroll;
 
+}
 
-
-
+.mainContainer > div{
+    flex: 1;
 }
 body::-webkit-scrollbar{
     display: none;
+}
+.photo > img{
+    flex: 1;
 }
 
 .navBar{
@@ -146,12 +150,14 @@ align-items: center;
 
     .rightSideBar {
         width: 38%;
-        height: 300px;
+        
         /* background-color: rgba(var(--b3f,250,250,250),1); */
         background-color: rgb(255, 255, 255);
-        margin-left: 787px;
+        margin-left: 62%;
         position: fixed;
         margin-top: 73px;
+        display: flex;
+        flex-direction: column;
    
 
 
@@ -167,6 +173,7 @@ align-items: center;
     border-radius: 50%;
     border: solid 2px #5f0c0c;
     outline: 2px solid white;
+    cursor: pointer;
 }
 .text{
     margin-top: 5px;
@@ -228,8 +235,10 @@ body::-webkit-scrollbar{
 
 .photo{
     height: 400px;
-    width: 100%;
+    width: 600px;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    object-fit: contain;
 }
 
 
@@ -240,15 +249,15 @@ body::-webkit-scrollbar{
     border-radius: 50%;
 }
 
-.NewsFeedImage{
-    height: 400px;
-    width: 606px;
-}
 
-.NewsFeedImage1{
-    height: 500px;
-    width: 606px;
-    
+
+
+
+.HomeIcons svg:hover{
+    cursor: pointer;
+}
+.UserDp img{
+    cursor: pointer;
 }
 
 .icons{
