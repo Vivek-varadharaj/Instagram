@@ -166,14 +166,25 @@ align-items: center;
     display: flex;
     
 }
-.storiesimage{
-    height: 60px;
-    width: 60px;
+
+.pic {
+    display: flex;
     border-radius: 50%;
-    border: solid 2px #5f0c0c;
-    outline: 2px solid white;
-    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid rgba(228, 83, 26, 0.555);
+    
 }
+
+    .storiesimage {
+        padding: 1px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        /* border: solid 2px #fff8f8; */
+        /* outline: 2px solid #5f0c0c; */
+        cursor: pointer;
+    }
+
 .text{
     margin-top: 5px;
 }
@@ -368,6 +379,14 @@ body::-webkit-scrollbar{
 
     background-color: rgb(255, 255, 255);
     margin-top: 8px;
+}
+
+.CommentBox p {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 11px;
+    margin-top: -19px;
+    color: #00dcffa6;
 }
 
 .MainCommentBox{
